@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "module": "es2015",
+    "target": "esnext",
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "checkJs": true,
+    "rootDir": "src",
+    "outDir": ".dist",
+    "lib": [
+      "dom",
+      "es2015"
+    ]
+    ,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "typeRoots": [
+      "src/tsd",
+      "node_modules/@types",
+      "node_modules/**"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
